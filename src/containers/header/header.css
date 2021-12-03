@@ -1,5 +1,6 @@
 .gpt3__header {
     display: flex;
+    flex-direction: row;
 }
 
 .gpt3__header-content {
@@ -36,6 +37,7 @@
     margin: 2rem 0 1rem;
 
     display: flex;
+    flex-direction: row;
 }
 
 .gpt3__header-content__input input {
@@ -48,11 +50,12 @@
     padding: 0 1rem;
     outline: none;
     color: #fff;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
     font-size: 20px;
     line-height: 27px;
     color: #3D6184;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .gpt3__header-content__input button {
@@ -78,6 +81,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-direction: row;
     
     margin-top: 2rem;
 }
