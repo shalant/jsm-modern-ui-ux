@@ -1,7 +1,6 @@
 .gpt3__possibility {
     display: flex;
     flex-direction: row;
-
 }
 
 .gpt3__possibility-image {
@@ -43,12 +42,29 @@
     font-weight: 800;
     font-size: 34px;
     line-height: 45px;
+    margin: 1rem 0;
 }
 
 .gpt3__possibility-content p {
     font-family: var(--font-family);
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 30px;
-    color: #81AFDD;
+    color: var(--color-text);
+
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 950px) {
+    .gpt3__possibility {
+        flex-direction: column;
+    }
+
+    .gpt3__possibility-image {
+        margin: 1rem 0;
+    }
+
+    .gpt3__possibility-content {
+        margin-top: 2rem;
+    }
 }
