@@ -3,9 +3,9 @@ import './blog.css';
 import { Article } from '../../components';
 import { blog01, blog02, blog03, blog04, blog05 } from './imports';
 
-const Blog = ({ imgUrl, date, title }) => {
+const Blog = ({ imgUrl, date, text }) => {
     return (
-        <div className='gpt3__blog section-padding' id='blog'>
+        <div className='gpt3__blog section_padding' id='blog'>
             <div className="gpt3__blog-heading">
                 <h1 className='gradient__text'>A lot is happening, We are blogging about it.</h1>
             </div>
